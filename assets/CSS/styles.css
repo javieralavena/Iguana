@@ -1,0 +1,89 @@
+body {
+    background-color: #000000;
+    color:#ffffff;
+    font-family:'Raleway', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    margin: 7px;
+}
+
+.desc-section {
+    padding: 45px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.desc-section .texto {
+    font-weight: 300;
+    font-size: 1.4em;
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+    margin: 7px 50px;
+}
+
+.desc-section img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icons-section {
+    background-color: #1e1a13;
+    padding: 40px 0px 50px 0px;
+    
+}
+
+.icons-section h1 {
+    font-size: 1.8em;
+    padding-bottom: 35px;
+}
+
+.icons-section .icons {
+    font-size: 35px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.icons-text  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+#eyes {
+    padding: 0px 30px;
+}
+
+#photos  {
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    padding: 55px 4px;
+}
+
+footer {
+    background-color: #1e1a13;
+    padding: 20px;
+}
+
+a {
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+}
